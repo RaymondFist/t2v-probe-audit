@@ -1,0 +1,101 @@
+{
+ "floor33_allpairs_exactly_invariant": {
+  "max_abs_delta": 0.0,
+  "identical_clips": 60,
+  "n": 60,
+  "pass": true
+ },
+ "floor33_guard_removes_rate_response": {
+  "max_abs_delta": 0.0,
+  "n": 46,
+  "pass": true
+ },
+ "floor33_dino_min_ignores_duplication": {
+  "max_abs_delta": 0.0,
+  "pass": true
+ },
+ "floor33_reversal_invariant_pair_statistics": {
+  "max_abs_delta": 0.0,
+  "n": 60,
+  "pass": true
+ },
+ "floor33_order_sensitivity_positive": {
+  "metrics": [
+   "mafd",
+   "ssim_instability",
+   "warp_error",
+   "mcs_disc",
+   "mcs_warp",
+   "mcs_mag",
+   "mcs",
+   "dino_pair_mean"
+  ],
+  "pass": true
+ },
+ "gen2_allpairs_exactly_invariant": {
+  "max_abs_delta": 0.0,
+  "identical_clips": 60,
+  "n": 60,
+  "pass": true
+ },
+ "gen2_guard_removes_rate_response": {
+  "max_abs_delta": 0.0,
+  "n": 7,
+  "pass": true
+ },
+ "gen2_dino_min_ignores_duplication": {
+  "max_abs_delta": 0.0,
+  "pass": true
+ },
+ "gen2_reversal_invariant_pair_statistics": {
+  "max_abs_delta": 0.0,
+  "n": 60,
+  "pass": true
+ },
+ "gen2_order_sensitivity_positive": {
+  "metrics": [
+   "mafd",
+   "ssim_instability",
+   "warp_error",
+   "mcs_disc",
+   "mcs_warp",
+   "mcs_mag",
+   "mcs",
+   "dino_pair_mean"
+  ],
+  "pass": true
+ },
+ "gen2_k3_allpairs_exactly_invariant": {
+  "max_abs_delta": 0.0,
+  "identical_clips": 60,
+  "n": 60,
+  "pass": true
+ },
+ "gen2_k3_guard_removes_rate_response": {
+  "max_abs_delta": 0.0,
+  "n": 34,
+  "pass": true
+ },
+ "gen2_k3_dino_min_ignores_duplication": {
+  "max_abs_delta": 0.0,
+  "pass": true
+ },
+ "gen2_k3_reversal_invariant_pair_statistics": {
+  "max_abs_delta": 0.0,
+  "n": 60,
+  "pass": true
+ },
+ "gen2_k3_order_sensitivity_positive": {
+  "metrics": [
+   "mafd",
+   "ssim_instability",
+   "warp_error",
+   "mcs_disc",
+   "mcs_warp",
+   "mcs_mag",
+   "mcs",
+   "dino_pair_mean"
+  ],
+  "pass": true
+ }
+}

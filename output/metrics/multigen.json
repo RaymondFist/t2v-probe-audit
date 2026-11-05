@@ -1,0 +1,89 @@
+{
+ "n": 60,
+ "seed": 2026,
+ "interventions": [
+  "I5_speed0p5x"
+ ],
+ "generators": {
+  "floor33": {
+   "reported_pre": 0.436912682126617,
+   "coverage_pre": 1.0,
+   "reported_post": 0.40545868609355057,
+   "coverage_post": 0.7666666666666667,
+   "artifact_i5": -0.04224621445235141,
+   "coverage_disc_mean": 0.6738095238095237,
+   "n": 60,
+   "pairwise_inversion": 0.030917874396135265,
+   "inverted_pairs": 32,
+   "pairs": 1035
+  },
+  "gen2": {
+   "reported_pre": 0.6025829268815559,
+   "coverage_pre": 1.0,
+   "reported_post": 0.6016123654247693,
+   "coverage_post": 0.11666666666666667,
+   "artifact_i5": 0.02549465022157679,
+   "coverage_disc_mean": 0.010144927536231885,
+   "n": 60,
+   "pairwise_inversion": 0.047619047619047616,
+   "inverted_pairs": 1,
+   "pairs": 21
+  },
+  "pika": {
+   "reported_pre": 0.5804403885801274,
+   "coverage_pre": 1.0,
+   "reported_post": 0.5420804975394345,
+   "coverage_post": 0.1,
+   "artifact_i5": 0.007010050811467555,
+   "coverage_disc_mean": 0.05543478260869565,
+   "n": 60,
+   "pairwise_inversion": 0.0,
+   "inverted_pairs": 0,
+   "pairs": 15
+  },
+  "modelscope": {
+   "reported_pre": 0.46738031233449306,
+   "coverage_pre": 1.0,
+   "reported_post": 0.4244744982003789,
+   "coverage_post": 0.7166666666666667,
+   "artifact_i5": -0.02937774794030712,
+   "coverage_disc_mean": 0.5797619047619048,
+   "n": 60,
+   "pairwise_inversion": 0.06201550387596899,
+   "inverted_pairs": 56,
+   "pairs": 903
+  },
+  "zeroscope": {
+   "reported_pre": 0.4539261927701052,
+   "coverage_pre": 1.0,
+   "reported_post": 0.4280181490114147,
+   "coverage_post": 0.8166666666666667,
+   "artifact_i5": -0.03636737405369598,
+   "coverage_disc_mean": 0.7857142857142858,
+   "n": 60,
+   "pairwise_inversion": 0.01020408163265306,
+   "inverted_pairs": 12,
+   "pairs": 1176
+  }
+ },
+ "consequence": {
+  "ranking_pre": {
+   "gen2": 0.6025829268815559,
+   "pika": 0.5804403885801274,
+   "modelscope": 0.46738031233449306,
+   "zeroscope": 0.4539261927701052,
+   "floor33": 0.436912682126617
+  },
+  "ranking_post": {
+   "gen2": 0.6016123654247693,
+   "pika": 0.5420804975394345,
+   "zeroscope": 0.4280181490114147,
+   "modelscope": 0.4244744982003789,
+   "floor33": 0.40545868609355057
+  },
+  "kendall_tau": 0.8,
+  "between_generator_gap": 0.1656702447549389,
+  "max_abs_artifact": 0.04224621445235141,
+  "artifact_over_gap": 0.2550018231387443
+ }
+}
